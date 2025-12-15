@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # AI-Calling-Agent
 =======
-## 📞 AI Caller Agent System
+##  AI Caller Agent System
 
 An AI-driven multi-lingual (Hindi/English) caller agent that can:
 
@@ -36,9 +35,9 @@ ai-agent-system/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 🔧 Prerequisites
+###  Prerequisites
 
 * Python 3.11+
 * Twilio account (for calling)
@@ -49,7 +48,7 @@ ai-agent-system/
 
 ---
 
-### 📥 Setup Instructions
+###  Setup Instructions
 
 ```bash
 # Clone and enter the repo
@@ -68,7 +67,7 @@ python main.py
 
 ---
 
-### 🐳 Docker (Optional)
+###  Docker (Optional)
 
 ```bash
 # Build and run with Docker Compose
@@ -77,7 +76,7 @@ docker-compose up --build
 
 ---
 
-## 🔐 .env Variables
+##  .env Variables
 
 Update `.env` in root folder with:
 
@@ -99,7 +98,7 @@ GOOGLE_SERVICE_ACCOUNT_JSON=config/google_creds.json
 
 ---
 
-## 🧠 Memory + Context
+##  Memory + Context
 
 This system uses:
 
@@ -117,7 +116,7 @@ config/company_context.txt
 
 ---
 
-## 🧪 Test Scripts
+##  Test Scripts
 
 Run these to test modules independently:
 
@@ -129,7 +128,7 @@ python test/test_resume.py
 
 ---
 
-## 🛠️ Key Services
+##  Key Services
 
 | File                  | Description                          |
 | --------------------- | ------------------------------------ |
@@ -143,7 +142,7 @@ python test/test_resume.py
 
 ---
 
-## ✨ Future Plans
+##  Future Plans
 
 * ✅ Vector-based memory with Chroma
 * ✅ Web dashboard to view & trigger sessions
@@ -153,16 +152,7 @@ python test/test_resume.py
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests, ideas, and improvements welcome!
 If you'd like to collaborate or extend this to your own use case (e.g. sales, service, medical), reach out!
-
----
-
-## 📄 License
-
-MIT License
-
----
->>>>>>> 257bdba (Initial commit)
